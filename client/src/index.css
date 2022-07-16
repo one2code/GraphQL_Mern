@@ -14,8 +14,9 @@ code {
 
 .navbar-color {
   color: #df3ca6;
+  font-family: 'Formula1', sans-serif;
+  font-weight: bold;
 }
-
 .navbar-brand img {
   width: 30px;
   margin-right: 10px;

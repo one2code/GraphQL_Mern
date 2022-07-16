@@ -10,12 +10,14 @@ export default function Clients() {
 	if (loading)
 		return (
 			<>
-				<Spinner animation="grow" role = "loading" variant="danger" />
-				<Spinner animation="grow" role = "loading" variant="danger" />
-				<Spinner animation="grow" role = "loading" variant="danger" />
-				<Spinner animation="grow" role = "loading" variant="danger" />
-				<Spinner animation="grow" role = "loading" variant="danger" />
+			<div className="d-flex justify-content-center">
+				<Spinner animation="grow" size="sm" role = "loading" variant="danger" />
+				<Spinner animation="grow" size="sm" role = "loading" variant="danger" />
+				<Spinner animation="grow" size="sm" role = "loading" variant="danger" />
+				<Spinner animation="grow" size="sm" role = "loading" variant="danger" />
+				<Spinner animation="grow" size="sm" role = "loading" variant="danger" />
 				<span className="visually-hidden">Loading...</span>
+				</div>
 			</>
 		);
 	if (error) return <p>Something Went Wrong</p>;
