@@ -9,7 +9,7 @@ function Header() {
 				<Navbar.Brand href="/">
 					<div className="d-flex">
 						<img src={logo} className="mr-2" alt="logo" />
-						<div className="navbar-color">Project Management</div>
+						<div className="navbar-color">Team Manager</div>
 					</div>
 				</Navbar.Brand>
 			</Container>
