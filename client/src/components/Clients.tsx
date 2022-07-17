@@ -24,7 +24,7 @@ export default function Clients() {
 	return (
 		<>
 			{!loading && !error && (
-				<Table bordered hover>
+				<Table bordered hover responsive>
 					<thead>
 						<tr>
 							<th>Name</th>
