@@ -1,4 +1,4 @@
-import { gql, useQuery } from "@apollo/client";
+import { useQuery } from "@apollo/client";
 import { GET_CLIENTS } from "../queries/ClientQueries";
 import { ClientRow } from "./ClientRow";
 import Table from "react-bootstrap/Table";
