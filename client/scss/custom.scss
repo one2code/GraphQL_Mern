@@ -1,0 +1,11 @@
+// Need to correct text color and hover and focus states in Sass later. Trying to avoid overriding in the index.css file with !important
+
+$theme-colors: (
+  "primary": #df3ca6,
+  "secondary": #f5f5f5,
+);
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap"
+

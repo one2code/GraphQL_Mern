@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import Container from "react-bootstrap/Container";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import './App.scss';
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import Clients from "./components/Clients";
 import AddClientModal from "./components/AddClientModal";
