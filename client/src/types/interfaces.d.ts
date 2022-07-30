@@ -6,3 +6,8 @@ interface ClientInterface {
     client: any;
 }
 
+interface ProjectInterface {
+    id: string;
+    name: string;
+    status: string;
+}

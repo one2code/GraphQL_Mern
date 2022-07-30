@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './App.scss';
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 import Clients from "./components/Clients";
+import Projects from "./components/Projects";
 import AddClientModal from "./components/AddClientModal";
 
 const cache = new InMemoryCache({
@@ -39,6 +40,7 @@ function App() {
 				<Container>
 					<Clients />
 					<AddClientModal/>
+					<Projects />
 				</Container>
 			</ApolloProvider>
 		</>
